@@ -1434,7 +1434,7 @@ footer {
     padding-right: 30px;
     overflow:hidden;
     width: 300px;
-    display: block;
+    display: none;
     margin: 0 auto;
   }
 }
