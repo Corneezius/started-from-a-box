@@ -1,36 +1,41 @@
 $(document).ready(function() {
-		$('#rumble-credit').hide(0).fadeIn(1000);
+		$('#bgvid2')[0].play();
 
 		setTimeout(function(){
-			$('#rumble-credit').fadeOut(1000);
-		}, 1500);
-
+			$('#bgvid2')[0].stop();
+		}, 3000);
+		//
 		// setTimeout(function(){
-		// 	$('#bgvid2')[0].play();
+		// 	$('#rumble-credit').hide(0).fadeIn(1000);
+		// }, 2000);
+		//
+		// setTimeout(function(){
 		// 	$('#bgvid2').show();
-		// }, 2550);
+		// 	$('#rumble-credit').fadeOut(1000);
+		// }, 3000);
 		//
 		// setTimeout(function(){
 		// 	$('#bgvid2').hide();
-		// }, 5500);
+		// }, 9000);
+		//
+	  // setTimeout(function(){
+		// 	$('#project-title').show();
+		// 	$('#artist-name').show();
+		// 	$('#bars').show();
+	  // }, 10000);
 
-		setTimeout(function(){
-			$('#project-title').show();
-			$('#artist-name').show();
-			$('#bars').show();
-		}, 3000);
-
-	  setTimeout(function(){
-			$('#project-title').hide();
-			$('#artist-name').hide();
-			$('#bars').hide();
-	  }, 6000);
-
-  setTimeout(function(){
-			$('body').removeClass("noscroll");
-			$('body').addClass('loaded');
-			$('.btn-toggle').show();
-		}, 6500);
+	// 	setTimeout(function(){
+	// 		$('#project-title').hide();
+	// 		$('#artist-name').hide();
+	// 		$('#bars').hide();
+	// 	}, 11000);
+	//
+  // setTimeout(function(){
+	// 		$('body').removeClass("noscroll");
+	// 		$('body').addClass('loaded');
+	// 		$('.btn-toggle').show();
+	// 		$('nav').show();
+	// 	}, 11500);
  });
 
  $('a[href*="#"]:not([href="#"])').click(function() {
