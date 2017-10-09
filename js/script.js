@@ -68,3 +68,18 @@ $(document).ready(function(){
       	}, 55000);
     });
 });
+
+var r = new XMLHttpRequest();
+r.onload = function() {
+    myVid.src = URL.createObjectURL(r.response);
+    myVid.play();
+};
+if (myVid.canPlayType('video/mp4;codecs="avc1.42E01E, mp4a.40.2"')) {
+    r.open("GET", "Beast8.mp4");
+}
+else {
+    r.open("GET", "Beast8.webm");
+}
+
+r.responseType = "blob";
+r.send();
