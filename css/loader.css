@@ -82,11 +82,11 @@
     position: absolute;
     width: 40px;
     z-index:1012;
-    display: none;
+    display:none;
 }
 
     .bar {
-    background: #CF2A07;
+    background: white;
     bottom: 1px;
     height: 3px;
     position: absolute;
@@ -108,7 +108,7 @@
 
   #project-title {
     top:41%;
-    font-size:65px;
+    font-size:53px;
     margin-top:-100px;
   }
 
@@ -187,8 +187,8 @@
 
       #project-title {
         top:30%;
-        font-size:81px;
-        margin-top:-85px;
+        font-size: 46px;
+        margin-top: 20px;
       }
 
       #release-countdown {
@@ -216,15 +216,15 @@
       #rumble-credit {
         font-size:20px;
         margin-top:-85px;
+        letter-spacing:1px;
       }
 
       #project-title {
-        font-size: 96px;
-        margin-top: -146px;
+        font-size: 52px;
       }
 
       #bars {
-        top:55%;
+        top:45%;
         }
 
       #artist-name {
@@ -283,8 +283,9 @@
        }
 
        #project-title {
-         font-size: 65px;
-         margin-top: -14px;
+         font-size: 45px;
+         margin-top: -20px;
+
        }
 
        #release-countdown {
@@ -316,7 +317,7 @@
   }
 
   #bars {
-    top:43%;
+    top:55%;
   }
 
   #release-countdown {
