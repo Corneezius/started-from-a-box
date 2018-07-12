@@ -153,8 +153,8 @@
     }
 
     #project-title {
-      top:36%;
-      font-size:63px;
+      top: 48%;
+      font-size: 40px;
     }
 
     #artist-name {
@@ -249,9 +249,10 @@
       }
 
       #project-title {
-        font-size: 113px;
-        margin-top: -172px;
-      }
+        font-size: 60px;
+        margin-top: -66px;
+    }
+    
 
       #bars {
         top:56%;

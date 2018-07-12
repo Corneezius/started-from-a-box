@@ -15,18 +15,18 @@ $(document).ready(function() {
 			$('#bars').show();
 	  }, 4000);
 	//
-		setTimeout(function(){
-			$('#project-title').hide();
-			$('#artist-name').hide();
-			$('#bars').hide();
-		}, 8000);
-	//
-  setTimeout(function(){
-			$('body').removeClass("noscroll");
-			$('body').addClass('loaded');
-			$('.btn-toggle').show();
-			$('nav').show();
-		}, 9000);
+	// 	setTimeout(function(){
+	// 		$('#project-title').hide();
+	// 		$('#artist-name').hide();
+	// 		$('#bars').hide();
+	// 	}, 8000);
+	// //
+  // setTimeout(function(){
+	// 		$('body').removeClass("noscroll");
+	// 		$('body').addClass('loaded');
+	// 		$('.btn-toggle').show();
+	// 		$('nav').show();
+	// 	}, 9000);
  });
 
  $('a[href*="#"]:not([href="#"])').click(function() {
